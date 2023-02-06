@@ -9,7 +9,6 @@ def main():
     # results=[]
     for i in img_paths:
         print(pytesseract.image_to_string(i, lang='eng'), end='\n------------------------\n')
-
-    
+        
 if __name__=='__main__':
     main()
